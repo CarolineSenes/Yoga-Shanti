@@ -8,11 +8,10 @@
     <meta name="description" content="Studio de yoga à Haguenau">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
     <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
       <!---Top Bar-->
@@ -20,13 +19,13 @@
           <div class="container d-flex">
               <div class="contact-info mr-auto">
                   <i class="fas fa-envelope" aria-hidden="true"></i>
-                  <a href="">email@example.com</a>
+                  <a href="mailto: email@example.com">email@example.com</a>
                   <i class="fas fa-phone" aria-hidden="true"></i>03 88 99 66 55
               </div>
               <div class="social-links">
-                  <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
-                  <a href="" class="facebook"><i class="fab fa-facebook"></i></a>
-                  <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/yogashanti" class="twitter" aria-label="Suivre sur Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.twitter.com/yogashanti" class="facebook" aria-label="Suivre sur Facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/yogashanti" class="instagram" aria-label="Suivre sur Instagram"><i class="fab fa-instagram"></i></a>
               </div>
           </div>
       </section>
@@ -35,7 +34,7 @@
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg bg-color" id="myNavbar">
           <div class="container">
-              <a href="#" class="navbar-brand">Yoga Shanti</a>
+              <a href="#" class="navbar-brand"><h1>Yoga Shanti</h1></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span></span>Menu
               </button>
@@ -48,7 +47,7 @@
                         <a href="#about" class="nav-link">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#services" class="nav-link">Cours</a>
                     </li>
                     <li class="nav-item">
                         <a href="#prix" class="nav-link">Prix</a>
@@ -73,9 +72,9 @@
                       <div class="carousel-inner">
                           <div class="carousel-item slide-1 active">
                               <div class="carousel-caption mb-5 text-right">
-                                  <h1 class="display-3 text-capitalize mb-2 text-bold">
+                                  <p class="display-3 text-capitalize mb-2 text-bold">
                                       Yoga Lifestyle
-                                  </h1>
+                                  </p>
                                   <a href="#prix" class="btn btn-lg mb-5 text-uppercase site-btn sb-gradient">
                                     Rejoinez-nous
                                   </a>
@@ -84,9 +83,9 @@
 
                           <div class="carousel-item slide-2">
                             <div class="carousel-caption mb-5 text-right">
-                                <h1 class="display-3 text-capitalize mb-2 text-bold">
+                                <p class="display-3 text-capitalize mb-2 text-bold">
                                     Yoga Passion
-                                </h1>
+                                </p>
                                 <a href="#prix" class="btn btn-lg mb-5 text-uppercase site-btn sb-gradient">
                                     Rejoinez-nous
                                 </a>
@@ -95,9 +94,9 @@
 
                         <div class="carousel-item slide-3">
                             <div class="carousel-caption mb-5 text-right">
-                                <h1 class="display-3 text-capitalize mb-2 text-bold">
+                                <p class="display-3 text-capitalize mb-2 text-bold">
                                     Yoga Fit
-                                </h1>
+                                </p>
                                 <a href="#prix" class="btn btn-lg mb-5 text-uppercase site-btn sb-gradient">
                                     Rejoinez-nous
                                 </a>
@@ -106,12 +105,12 @@
 
                       </div>
                       <a href="#hero-slider" class="carousel-control-prev"
-                      role="button" data-slide="prev">
+                      role="button" data-slide="prev" aria-label="slide précédent">
                     <i class="fas fa-arrow-circle-left"></i>
                     
                     </a>
                     <a href="#hero-slider" class="carousel-control-next"
-                      role="button" data-slide="next">
+                      role="button" data-slide="next" aria-label="slide suivant">
                     <i class="fas fa-arrow-circle-right"></i>
                     
                     </a>
@@ -139,7 +138,7 @@
                               <i class="fab fa-diaspora fa-2x"></i>
                           </div>
                           <div class="about-text">
-                              <h4> Lorem Ipsum 1</h4>
+                              <h3>Bienveillance & Sourire</h3>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident perspiciatis aperiam at.</p>
                           </div>
                       </div>
@@ -149,7 +148,7 @@
                             <i class="fas fa-cannabis fa-2x"></i>
                         </div>
                         <div class="about-text">
-                            <h4> Lorem Ipsum 2</h4>
+                            <h3>Energie Positive</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident perspiciatis aperiam at.</p>
                         </div>
                     </div>
@@ -159,7 +158,7 @@
                             <i class="fab fa-d-and-d fa-2x"></i>
                         </div>
                         <div class="about-text">
-                            <h4> Lorem Ipsum 3</h4>
+                            <h3>Développement de l'intuition</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident perspiciatis aperiam at.</p>
                         </div>
 
@@ -174,7 +173,7 @@
       <section id="services" class="services section-bg pt-5">
         <div class="container">
             <div class=" section-title">
-                <h2> Services</h2>
+                <h2>Cours</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, odit.</p>
             </div>
             <div class="row">
@@ -183,8 +182,7 @@
                         <div class="icon">
                       <i class="fas fa-cannabis" style="color:#ff689b;"></i>
                         </div>
-                        <h4 class="title">
-                            <a href="">Lorem Ipsum</a></h4>
+                        <h3 class="title">Hatha Yoga</h3>
                             <p class="description">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.
                             </p>
@@ -197,8 +195,7 @@
                       <div class="icon">
                     <i class="fab fa-d-and-d" style="color:#e9bf06;"></i>
                       </div>
-                      <h4 class="title">
-                          <a href="">Lorem Ipsum 2</a></h4>
+                      <h3 class="title">Vinyasa Yoga</h3>
                           <p class="description">
                               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.
                           </p>
@@ -210,8 +207,7 @@
                   <div class="icon">
                 <i class="fab fa-envira" style="color:#3fcdc7;"></i>
                   </div>
-                  <h4 class="title">
-                      <a href="">Lorem Ipsum 3</a></h4>
+                  <h3 class="title">Yin Yoga</h3>
                       <p class="description">
                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.
                       </p>
@@ -224,7 +220,7 @@
                     <div class="icon">
                         <i class="fas fa-feather-alt" style="color:#41cf2e;"></i>
                     </div>
-                    <h4 class="title"><a href="">Lorem Ipsum 4</a></h4>
+                    <h3 class="title">Ashtanga Yoga</h3>
                     <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.</p>
             </div>
         </div>
@@ -234,7 +230,7 @@
                     <div class="icon">
                         <i class="fas fa-leaf" style="color:#22ffed;"></i>
                     </div>
-                    <h4 class="title"><a href="">Lorem Ipsum 5</a></h4>
+                    <h3 class="title">Yoga Aérien</h3>
                     <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.</p>
               </div>
             </div>
@@ -244,7 +240,7 @@
                         <div class="icon">
                             <i class="fas fa-life-ring" style="color:#4680ff;"></i>
                         </div>
-                        <h4 class="title"><a href="">Lorem Ipsum 6</a></h4>
+                        <h3 class="title">Méditation</h3>
                         <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quia consequuntur perferendis eius molestias.</p>
                   </div>
                 </div>
@@ -254,24 +250,23 @@
       <section id="prix" class="pricing-section pt-5">
           <div class="container">
               <div class="section-title text-center">
-                  <h2> Prix</h2>
+                  <h2>Prix</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga est! Similique. </p>
               </div>
               <div class="row">
                   <div class="col-lg-3 col-sm-6">
                       <div class="price-item beginner">
                           <div class="price-top">
-                              <h4>Débutant</h4>
+                              <h3>Débutant</h3>
                           </div>
                           <div class="price-sec">
-                              <h3>69€</h3>
+                              <h3>25€</h3>
                               <p>Par mois</p>
                           </div>
                           <ul>
-                              <li>Lorem, ipsum dolor.</li>
-                              <li>Lorem, ipsum dolor.</li>
-                              <li>Lorem, ipsum dolor.</li>
-                              <li>Lorem, ipsum dolor.</li>
+                              <li>2 cours / mois</li>
+                              <li>Cours au studio</li>
+                              <li>Valable pendant 12 mois</li>
                           </ul>
                           <a href="#footer" class="site-btn sb-gradient">Commencer</a>
                       </div>
@@ -279,17 +274,16 @@
                   <div class="col-lg-3 col-sm-6">
                     <div class="price-item intermediate">
                         <div class="price-top">
-                            <h4>Intermediaire</h4>
+                            <h3>Intermediaire</h3>
                         </div>
                         <div class="price-sec">
-                            <h3>89€</h3>
+                            <h3>60€</h3>
                             <p>Par mois</p>
                         </div>
                         <ul>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
+                            <li>4 cours / mois</li>
+                            <li>Cours au studio</li>
+                            <li>Valable pendant 12 mois</li>
                         </ul>
                         <a href="#footer" class="site-btn sb-gradient">Commencer</a>
                     </div>
@@ -297,17 +291,16 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="price-item advanced">
                         <div class="price-top">
-                            <h4>Advancé</h4>
+                            <h3>Avancé</h3>
                         </div>
                         <div class="price-sec">
-                            <h3>109€</h3>
+                            <h3>110€</h3>
                             <p>Par mois</p>
                         </div>
                         <ul>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
+                            <li>8 cours / mois</li>
+                            <li>Cours au studio</li>
+                            <li>Valable pendant 12 mois</li>
                         </ul>
                         <a href="#footer" class="site-btn sb-gradient">Commencer</a>
                     </div>
@@ -315,17 +308,16 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="price-item professional">
                         <div class="price-top">
-                            <h4>Professionnel</h4>
+                            <h3>Professionnel</h3>
                         </div>
                         <div class="price-sec">
-                            <h3>169€</h3>
+                            <h3>140€</h3>
                             <p>Par mois</p>
                         </div>
                         <ul>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
+                            <li>cours illimités</li>
+                            <li>Cours au studio & en ligne</li>
+                            <li>Valable pendant 12 mois</li>
                         </ul>
                         <a href="#footer" class="site-btn sb-gradient">Commencer</a>
                     </div>
@@ -339,9 +331,9 @@
           <div class="container">
               <div class="row">
                   <div class="col text-center py-5">
-                      <h1 class="text-dark text-uppercase">
+                      <h2 class="text-dark text-uppercase">
                           Notre gallerie
-                      </h1>
+                      </h2>
                   </div>
 
               </div>
@@ -447,17 +439,17 @@
                  <div class="col-sm-6 col-md-4">
                      <div>
                          <div class="widget">
-                             <h5> A propos de Yoga Shanti</h5>
+                             <h3> A propos de Yoga Shanti</h3>
                              <p>Shanti vous accueille dans son studio de Yoga moderne et bienveillant, depuis 1999.</p>
                          </div>
                      </div>
                      <div>
-                         <div class="widget">
-                             <h5> Plan du site</h5>
+                         <div id="plan" class="widget">
+                             <h3> Plan du site</h3>
                              <ul>
                                  <li> <a href="index.html">Accueil</a></li>
                                  <li> <a href="#about">A propos</a></li>
-                                 <li> <a href="#services">Services</a></li>
+                                 <li> <a href="#services">Cours</a></li>
                                  <li> <a href="#prix">Prix</a></li>
                                  <li> <a href="#gallerie">Galerie</a></li>
                              </ul>
@@ -467,7 +459,7 @@
                  <div class="col-sm-6 col-md-4">
                      <div>
                          <div class="widget">
-                             <h5> Contact</h5>
+                             <h3> Contact</h3>
                              <p>Nous sommes à votre écoute.</p>
                              <ul>
                                  <li>
@@ -500,26 +492,26 @@
                  <div class="col-sm-6 col-md-4">
                      <div>
                          <div class="widget">
-                             <h5>Localisation</h5>
+                             <h3>Localisation</h3>
                              <p> 12 rue des lilas 67500 HAGUENAU</p>
                          </div>
                      </div>
                      <div>
                          <div class="widget">
-                             <h5>Suivez-nous</h5>
+                             <h3>Suivez-nous</h3>
                              <ul class="social-network">
                                  <li class="social-facebook">
-                                     <a href="index.html">
+                                     <a href="https://www.facebook.com/yogashanti" aria-label="Suivre sur Facebook">
                                          <i class="fab fa-facebook"></i>
                                      </a>
                                  </li>
                                  <li class="social-twitter">
-                                    <a href="index.html">
+                                    <a href="https://www.twitter.com/yogashanti" aria-label="Suivre sur Twitter">
                                         <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li class="social-instagram">
-                                    <a href="index.html">
+                                    <a href="https://www.instagram.com/yogashanti" aria-label="Suivre sur Instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
@@ -553,8 +545,7 @@
  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  </body>
 </html>

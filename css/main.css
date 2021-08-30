@@ -116,16 +116,16 @@ body{
 }
 .slide-1{
  background: linear-gradient(to right, rgba(2,79,99,0.9),
-rgba(5,183,192,0.5)), url(./img/slide1.jpg) center /cover fixed no-repeat;
+rgba(5,183,192,0.5)), url(../img/slide1.jpg) center /cover fixed no-repeat;
 }
 .slide-2{
     background: linear-gradient(to right, rgba(2,79,99,0.9),
-   rgba(5,1,52,0.5)), url(./img/slide2.jpg) center /cover fixed no-repeat;
+   rgba(5,1,52,0.5)), url(../img/slide2.jpg) center /cover fixed no-repeat;
    }
 
    .slide-3{
     background: linear-gradient(to right, rgba(2,14,52,0.9),
-   rgba(2,15,54,0.5)), url(./img/slide3.jpg) center /cover fixed no-repeat;
+   rgba(2,15,54,0.5)), url(../img/slide3.jpg) center /cover fixed no-repeat;
    }
 .no-padding{
     padding:0;
@@ -262,7 +262,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     padding-top: 26px;
 }
 .price-item .price-top h4{
-    color: #fff;
+    color: #000;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -283,7 +283,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 .price-item .price-sec p{
     text-transform: uppercase;
-    color: #999;
+    color: #000;
 }
 .price-item ul{
     list-style: none;
@@ -379,7 +379,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
   
   .faq .faq-list a.collapsed:hover {
-	color: #0874bd;
+	color: #007B8B;
   }
   
   .faq .faq-list a.collapsed .icon-show {
@@ -388,6 +388,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   
   .faq .faq-list a.collapsed .icon-close {
 	display: none;
+  }
+  
+  .collapse{
+      color: #000;
   }
   
   @media (max-width: 1200px) {
@@ -423,7 +427,6 @@ footer .sub-footer p{
     list-style:none;
     margin-left: 0;
     padding-left: 0;
-
 }
 .social-network{
     margin-left:0;
@@ -462,5 +465,8 @@ footer .sub-footer p{
 }
 .social-network .social-instagram a i{
     background: #d74980;
+}
+#plan a{
+    color: #007B8B;
 }
 
