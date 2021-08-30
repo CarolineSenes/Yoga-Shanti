@@ -1,5 +1,5 @@
 
-# Site pour un musée du selfie
+# Site pour un studio de yoga
 
 Création d'un site onepage pour un studio de yoga. Moderne, dynamique, accessible et responsive avec une interface fluide sur tous les terminaux (Desktop, tablettes et smartphones).
 ## Screenshots
