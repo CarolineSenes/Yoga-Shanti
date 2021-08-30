@@ -20,10 +20,9 @@ Création d'un site onepage pour un studio de yoga. Moderne, dynamique, accessib
 - Accessible
 
   
-## Optimisations
+## Optimisations (scores Lighthouse)
 
-Scores Lighthouse Desktop : ![lighthouse_desktop](https://github.com/CarolineSenes/Yoga-Shanti/blob/master/img/screenshots/lighthouse_desktop.PNG)
-Scores Lighthouse Mobile : ![lighthouse_mobile](https://github.com/CarolineSenes/Yoga-Shanti/blob/master/img/screenshots/lighthouse_mobile.PNG)
+![lighthouse](https://github.com/CarolineSenes/Yoga-Shanti/blob/master/img/screenshots/lighthouse.jpg)
   
 ## Démo du site
 
